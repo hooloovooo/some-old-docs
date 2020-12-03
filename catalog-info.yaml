@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "my-old-docs"
+  description: "Some old docs"
+  annotations:
+    github.com/project-slug: "hooloovooo/some-old-docs"
+    backstage.io/techdocs-ref: github:https://github.com/hooloovooo/some-old-docs
+spec:
+  type: documentation
+  lifecycle: experimental
+  owner: "guest"
