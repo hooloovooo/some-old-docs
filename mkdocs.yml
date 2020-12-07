@@ -3,7 +3,7 @@ site_description: "Some old docs"
 
 nav:
   - Introduction: index.md
-  - Testing
+  - Testing:
     - One thing: test/index.md
 
 plugins:
